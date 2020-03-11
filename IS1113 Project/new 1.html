@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+<head>
+
+	<script src="jquery.js"></script>
+	<script>
+	$(document).ready(function calcsum() {
+	
+		$('.label').click(function() {
+			
+			var total = 0;
+			
+			$('.option.checked').each(function() {
+			
+				total += parseInt($(this).val());
+				$(this).parent().css('background', 'gold');
+			});
+			
+			
+			$('#total').html('$' + total);
+		
+		});
+		
+	});
+	</script>
+	
+</head>
+<body>
+
+<label><input type="checkbox" class="option" value="500" /> Multiexperinece<label><br />
+<label><input type="checkbox" class="option" value="200" /> Hyperautomation<label><br />
+<label><input type="checkbox" class="option" value="1000" /> Distributed cloud<label><br />
+
+<div id="total"> Total $0</div>
+
+
+
+</body>
+</html>

@@ -1,0 +1,32 @@
+
+
+#header {
+	text-align: center;
+	background-color: #339966;
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	
+	
+}
+
+#content {
+	border: solid thin blue;
+	text-align: center;
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#footer {
+	margin-left:auto;
+	margin-right:auto;
+	text-align: center;
+	margin-top: 8px;
+	
+		
+}
+
+* {
+	background-color:#ff8080;
+}

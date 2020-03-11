@@ -1,0 +1,75 @@
+<html>
+ <head>
+        <title>Services</title>
+		<div id= "title">
+		<h1> Please choose a consultancy service </h1>
+		</div>
+		<link rel="stylesheet" type="text/css" href="Ebus.css" />
+        <meta charset="UTF-8">
+		<div id= "body">
+        
+        <script>
+            
+            // by name
+                function calcsub() 
+                {
+                    var type = document.getElementsByName("type");
+                    if(type[0].checked)
+                    {
+                        var val = type[0].value;
+                        alert(val);
+                    }
+                    
+                    else if(type[1].checked)
+                    {
+                        var val = type[1].value;
+                        alert(val);
+                    }
+                    
+                    else if(type[2].checked)
+                    {
+                        var val = type[2].value;
+                        alert(val);
+                    }
+                }
+                
+                // by Id
+                 function calcsub2() 
+                {
+                    if(document.getElementById("h").checked)
+                    {
+                        var val = document.getElementById("h").value;
+                        alert(val);
+                    }
+                    
+                    else if(document.getElementById("m").checked)
+                    {
+                        var val = document.getElementById("m").value;
+                        alert(val);
+                    }
+                    
+                    else if(document.getElementById("d").checked)
+                    {
+                        var val = document.getElementById("d").value;
+                        alert(val);
+                    }
+                }
+                
+                
+    
+        </script>
+        
+    </head>
+    <body>
+        
+<input type="radio" name="type" value="200" id="h" onclick="func2();"/>0 Hyperautomation<br/>
+<input type="radio" name="type" value="500" id="r"  onclick="func2();"/>1 Multiexperience<br/>
+<input type="radio" name="type" value="1000" id="a" onclick="func2();"/>2 Distributed cloud<br/>
+	</div>
+	
+	<div id= "more">
+		<script
+	</div>
+        
+    </body>
+    </html>

@@ -1,0 +1,52 @@
+
+#paragraph {
+		text-align: center;
+		margin-left: 20px;
+		margin-right:20px;
+		border: solid thin blue;
+		
+}
+
+#footer {
+	text-align: center;
+	margin-top: 10px;
+}
+
+#hyperautomation {
+	text-align: center;
+}
+
+#multiexperience {
+	text-align: center;
+}
+
+#distro {
+	text-align: center;
+}
+
+* {
+	background-color: #ff8080;
+	
+}
+
+#distributedcloudphoto {
+	border: solid thick blue;
+	width: 250;
+	margin-left: auto;
+	margin-right:auto;
+	
+}
+
+#multiphoto {
+	border: solid thick blue;
+	width: 250;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#hyperphoto {
+		border: solid thick blue;
+		width: 250;
+		margin-left: auto;
+		margin-right: auto;
+}

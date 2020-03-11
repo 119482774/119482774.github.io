@@ -1,0 +1,36 @@
+
+
+
+
+#sports {
+	margin-left: 100px;
+	text-align: left;
+	border: solid thin blue;
+	
+	
+	
+}
+
+#travel {
+	margin-right: 100px;
+	text-align: right;
+	border: solid thin blue;
+	margin-top: auto;
+	margin-bottom: auto;
+	
+}
+
+#footer {
+	margin-top: 20px;
+	text-align: center;
+	
+}
+
+* {
+	background-color: #ff8080;
+	
+}
+
+#header {
+		text-align: center;
+}
